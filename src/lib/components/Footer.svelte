@@ -30,7 +30,7 @@
 			</div>
 		</div>
 	</div>
-	<a class="flex items-center gap-1 text-accent sm:hidden" href="/">
+	<a class="flex items-center justify-center gap-1 text-accent sm:hidden" href="/">
 		<img src={AlumniLogo} alt="logo" class="h-14" />
 		<img src={Institute} alt="logo" class="h-16" />
 	</a>

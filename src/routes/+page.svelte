@@ -13,8 +13,8 @@
 
 <Slider />
 <Main>
-	<div class="p-10 w-full flex flex-col">
-		<div class="flex gap-5">
+	<div class="py-10 w-full flex flex-col">
+		<div class="flex gap-5 -md:flex-col">
 			<NotificationCard
 				title="Newsroom"
 				notifications={data.articles}

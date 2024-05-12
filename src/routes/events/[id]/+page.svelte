@@ -14,7 +14,7 @@
 				disabled={activity.id === 1}
 				class={activity.id === 1 ? 'cursor-not-allowed text-skin-muted' : '' + 'underline'}
 				on:click={() => {
-					if (activity.id > 1) goto(`/newsroom/${activity.id - 1}`);
+					if (activity.id > 1) goto(`/events/${activity.id - 1}`);
 				}}
 			>
 				Previous
@@ -24,7 +24,7 @@
 				disabled={activity.id === maxId}
 				class={activity.id === maxId ? 'cursor-not-allowed text-skin-muted' : '' + 'underline'}
 				on:click={() => {
-					if (activity.id < maxId) goto(`/newsroom/${activity.id + 1}`);
+					if (activity.id < maxId) goto(`/events/${activity.id + 1}`);
 				}}
 			>
 				Next
